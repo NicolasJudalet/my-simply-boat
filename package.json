@@ -5,11 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:style": "tailwind build public/assets/styles/vendors.css -o public/assets/styles/tailwind.css"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.28",
     "next": "9.4.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "tailwindcss": "^1.4.6"
   }
 }
